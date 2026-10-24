@@ -1,0 +1,22 @@
+generated: '2026-10-24'
+method: none
+source:
+- https://zapier.com/apps/wixsite-com/integrations
+- https://zapier.com/apps/wixsite/integrations
+- https://zapier.com/apps/percolata/integrations
+- https://n8n.io/integrations/wixsite-com/
+- https://n8n.io/integrations/wixsite/
+- https://composio.dev/toolkits/wixsite-com
+- https://monid.ai/tools/wixsite-com
+checked:
+- https://composio.dev/toolkits/wixsite-com
+- https://monid.ai/tools/wixsite-com
+- https://n8n.io/integrations/wixsite-com/
+- https://n8n.io/integrations/wixsite/
+- https://zapier.com/apps/percolata/integrations
+- https://zapier.com/apps/wixsite-com/integrations
+- https://zapier.com/apps/wixsite/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

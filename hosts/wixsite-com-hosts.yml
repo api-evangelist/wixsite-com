@@ -1,0 +1,29 @@
+generated: '2026-10-24'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 1
+  own: 0
+  other_domain: 0
+  platform: 1
+  roles:
+  - website
+hosts:
+- host: percolata.wixsite.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Website
+  - Documentation
+  - ContactForm
+  - TermsOfService
+  - Integration
+  serves:
+  - cdn
+  - hosting
+  vendor: cloudflare
+  registrable_domain: wixsite.com
+  role: website
+  relation: platform

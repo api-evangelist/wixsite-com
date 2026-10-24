@@ -1,25 +1,71 @@
 aid: wixsite-com
+
 name: Percolata
-description: 'Percolata is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by a16z) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Percolata offers AI-based people counting technology for global businesses to comply with COVID-19 occupancy limit laws. It provides predictive analytics to forecast sales and foot traffic, helping organizations optimize staffing and delivery levels. The company leverages machine learning to improve marketing and operations decisions, aiming to increase revenue during the pandemic and beyond.'
+
 url: https://raw.githubusercontent.com/api-evangelist/wixsite-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- AI
+- Analytics
+- Retail
+- Staffing
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- a16z
+
 common:
+- type: Hosts
+  url: hosts/wixsite-com-hosts.yml
+- type: Vendors
+  url: vendors/wixsite-com-vendors.yml
+- type: DomainSecurity
+  url: security/wixsite-com-domain-security.yml
 - type: Website
   url: https://percolata.wixsite.com/percolata
+- type: Documentation
+  url: https://percolata.wixsite.com/percolata
+- type: ContactForm
+  url: https://percolata.wixsite.com/percolata/contact-form
+- type: TermsOfService
+  url: https://percolata.wixsite.com/percolata/terms-of-policy
+- type: Integration
+  url: https://percolata.wixsite.com/percolata/een-integration
+
+apis: []
+
+x-backed-by:
+- a16z
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The provider's documentation site is a Wix-generated page rendered via JavaScript, preventing machine-readable contract discovery.
+  evidence:
+    - url: https://percolata.wixsite.com/percolata
+      status: 200
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
